@@ -1,0 +1,6 @@
+DOMAIN-SUFFIX,hoyoverse.com
+DOMAIN-SUFFIX,hoyolab.com
+DOMAIN-SUFFIX,hoyo.link
+DOMAIN-SUFFIX,yuanshen.com
+DOMAIN-SUFFIX,genshinimpact.com
+IP-CIDR,8.211.128.0/18,no-resolve
