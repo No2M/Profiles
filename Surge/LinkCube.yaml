@@ -1,0 +1,553 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+allow-lan: false
+unified-delay: true
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 0.0.0.0:9090
+clash-for-android:
+  append-system-dns: false
+profile:
+  tracing: true
+experimental:
+  sniff-tls-sni: true
+proxies:
+  - {name: "Traffic: 22.62 GB / 300 GB", server: linode-gz.linkcubecloud.dev, port: 8100, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: "Expire: 2028-01-03", server: linode-gz.linkcubecloud.dev, port: 8100, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 01, server: linode-gz.linkcubecloud.dev, port: 8100, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 02, server: linode-gz.linkcubecloud.dev, port: 8101, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 03, server: linode-gz.linkcubecloud.dev, port: 8102, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 04, server: linode-gz.linkcubecloud.dev, port: 8103, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 05, server: linode-gz.linkcubecloud.dev, port: 8104, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 06, server: linode-gz.linkcubecloud.dev, port: 8105, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 07, server: linode-gz.linkcubecloud.dev, port: 8106, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇭🇰 HKG 香港 08, server: linode-gz.linkcubecloud.dev, port: 8107, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 01, server: linode-sh.linkcubecloud.dev, port: 8200, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 02, server: linode-sh.linkcubecloud.dev, port: 8201, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 03, server: linode-sh.linkcubecloud.dev, port: 8202, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 04, server: linode-sh.linkcubecloud.dev, port: 8203, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 05, server: linode-sh.linkcubecloud.dev, port: 8204, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 06, server: linode-sh.linkcubecloud.dev, port: 8205, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 07, server: linode-sh.linkcubecloud.dev, port: 8206, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇯🇵 JPN 日本 08, server: linode-sh.linkcubecloud.dev, port: 8207, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 01, server: linode-gz.linkcubecloud.dev, port: 8304, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 02, server: linode-gz.linkcubecloud.dev, port: 8306, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 03, server: linode-gz.linkcubecloud.dev, port: 8301, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 04, server: linode-gz.linkcubecloud.dev, port: 8303, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 05, server: linode-gz.linkcubecloud.dev, port: 8305, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 06, server: linode-gz.linkcubecloud.dev, port: 8302, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 07, server: linode-gz.linkcubecloud.dev, port: 8307, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇸🇬 SGP 狮城 08, server: linode-gz.linkcubecloud.dev, port: 8300, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇨🇳 TWN 台湾 01, server: linode-gz.linkcubecloud.dev, port: 8401, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇨🇳 TWN 台湾 02, server: linode-gz.linkcubecloud.dev, port: 8400, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 01, server: linode-sh.linkcubecloud.dev, port: 8500, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 02, server: linode-sh.linkcubecloud.dev, port: 8501, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 03, server: linode-sh.linkcubecloud.dev, port: 8502, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 04, server: linode-sh.linkcubecloud.dev, port: 8503, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 05, server: linode-sh.linkcubecloud.dev, port: 8504, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 06, server: linode-sh.linkcubecloud.dev, port: 8505, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 07, server: linode-sh.linkcubecloud.dev, port: 8506, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇺🇸 USA 美国 08, server: linode-sh.linkcubecloud.dev, port: 8507, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇬🇧 GBR 英国 01, server: linode-bj.linkcubecloud.dev, port: 8601, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇬🇧 GBR 英国 02, server: linode-bj.linkcubecloud.dev, port: 8600, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇩🇪 DEU 德国 01, server: linode-bj.linkcubecloud.dev, port: 8603, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇩🇪 DEU 德国 02, server: linode-bj.linkcubecloud.dev, port: 8602, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇳🇱 NLD 荷兰 01, server: linode-bj.linkcubecloud.dev, port: 8605, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇳🇱 NLD 荷兰 02, server: linode-bj.linkcubecloud.dev, port: 8604, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇦🇷 ARG 阿根廷 01, server: linode-sh.linkcubecloud.dev, port: 8606, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇧🇷 BRA 巴西 01, server: linode-sh.linkcubecloud.dev, port: 8607, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇰🇷 KOR 韩国 01, server: linode-sh.linkcubecloud.dev, port: 8609, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇰🇷 KOR 韩国 02, server: linode-sh.linkcubecloud.dev, port: 8608, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇦🇺 AUS 澳洲 01, server: linode-gz.linkcubecloud.dev, port: 8610, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇮🇳 IND 印度 01, server: linode-gz.linkcubecloud.dev, port: 8611, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇨🇦 CAN 加拿大 01, server: linode-sh.linkcubecloud.dev, port: 8612, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇷🇺 RUS 俄罗斯 01, server: linode-bj.linkcubecloud.dev, port: 8613, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+  - {name: 🇹🇷 TUR 土耳其 01, server: linode-bj.linkcubecloud.dev, port: 8614, type: trojan, password: 658B443F-9728-5882-ECA3-8F668E9BA54B, sni: cos.ap-guangzhou.myqcloud.com, skip-cert-verify: true}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+      - "Traffic: 22.62 GB / 300 GB"
+      - "Expire: 2028-01-03"
+      - 🇭🇰 HKG 香港 01
+      - 🇭🇰 HKG 香港 02
+      - 🇭🇰 HKG 香港 03
+      - 🇭🇰 HKG 香港 04
+      - 🇭🇰 HKG 香港 05
+      - 🇭🇰 HKG 香港 06
+      - 🇭🇰 HKG 香港 07
+      - 🇭🇰 HKG 香港 08
+      - 🇯🇵 JPN 日本 01
+      - 🇯🇵 JPN 日本 02
+      - 🇯🇵 JPN 日本 03
+      - 🇯🇵 JPN 日本 04
+      - 🇯🇵 JPN 日本 05
+      - 🇯🇵 JPN 日本 06
+      - 🇯🇵 JPN 日本 07
+      - 🇯🇵 JPN 日本 08
+      - 🇸🇬 SGP 狮城 01
+      - 🇸🇬 SGP 狮城 02
+      - 🇸🇬 SGP 狮城 03
+      - 🇸🇬 SGP 狮城 04
+      - 🇸🇬 SGP 狮城 05
+      - 🇸🇬 SGP 狮城 06
+      - 🇸🇬 SGP 狮城 07
+      - 🇸🇬 SGP 狮城 08
+      - 🇨🇳 TWN 台湾 01
+      - 🇨🇳 TWN 台湾 02
+      - 🇺🇸 USA 美国 01
+      - 🇺🇸 USA 美国 02
+      - 🇺🇸 USA 美国 03
+      - 🇺🇸 USA 美国 04
+      - 🇺🇸 USA 美国 05
+      - 🇺🇸 USA 美国 06
+      - 🇺🇸 USA 美国 07
+      - 🇺🇸 USA 美国 08
+      - 🇬🇧 GBR 英国 01
+      - 🇬🇧 GBR 英国 02
+      - 🇩🇪 DEU 德国 01
+      - 🇩🇪 DEU 德国 02
+      - 🇳🇱 NLD 荷兰 01
+      - 🇳🇱 NLD 荷兰 02
+      - 🇦🇷 ARG 阿根廷 01
+      - 🇧🇷 BRA 巴西 01
+      - 🇰🇷 KOR 韩国 01
+      - 🇰🇷 KOR 韩国 02
+      - 🇦🇺 AUS 澳洲 01
+      - 🇮🇳 IND 印度 01
+      - 🇨🇦 CAN 加拿大 01
+      - 🇷🇺 RUS 俄罗斯 01
+      - 🇹🇷 TUR 土耳其 01
+  - name: YouTube
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Disney
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Hbomax
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Netflix
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Bahamut
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - TW
+  - name: Bilibili
+    type: select
+    proxies:
+      - DIRECT
+      - HK
+      - TW
+  - name: Spotify
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Steam
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Google
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Microsoft
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: OpenAI
+    type: select
+    proxies:
+      - Proxies
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: PayPal
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Apple
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+      - HK
+      - JP
+      - SG
+      - TW
+      - US
+  - name: Final
+    type: select
+    proxies:
+      - Proxies
+      - DIRECT
+  - name: HK
+    type: select
+    proxies:
+      - 🇭🇰 HKG 香港 01
+      - 🇭🇰 HKG 香港 02
+      - 🇭🇰 HKG 香港 03
+      - 🇭🇰 HKG 香港 04
+      - 🇭🇰 HKG 香港 05
+      - 🇭🇰 HKG 香港 06
+      - 🇭🇰 HKG 香港 07
+      - 🇭🇰 HKG 香港 08
+  - name: JP
+    type: select
+    proxies:
+      - 🇯🇵 JPN 日本 01
+      - 🇯🇵 JPN 日本 02
+      - 🇯🇵 JPN 日本 03
+      - 🇯🇵 JPN 日本 04
+      - 🇯🇵 JPN 日本 05
+      - 🇯🇵 JPN 日本 06
+      - 🇯🇵 JPN 日本 07
+      - 🇯🇵 JPN 日本 08
+  - name: SG
+    type: select
+    proxies:
+      - 🇸🇬 SGP 狮城 01
+      - 🇸🇬 SGP 狮城 02
+      - 🇸🇬 SGP 狮城 03
+      - 🇸🇬 SGP 狮城 04
+      - 🇸🇬 SGP 狮城 05
+      - 🇸🇬 SGP 狮城 06
+      - 🇸🇬 SGP 狮城 07
+      - 🇸🇬 SGP 狮城 08
+  - name: TW
+    type: select
+    proxies:
+      - 🇨🇳 TWN 台湾 01
+      - 🇨🇳 TWN 台湾 02
+  - name: US
+    type: select
+    proxies:
+      - 🇺🇸 USA 美国 01
+      - 🇺🇸 USA 美国 02
+      - 🇺🇸 USA 美国 03
+      - 🇺🇸 USA 美国 04
+      - 🇺🇸 USA 美国 05
+      - 🇺🇸 USA 美国 06
+      - 🇺🇸 USA 美国 07
+      - 🇺🇸 USA 美国 08
+rules:
+  - RULE-SET,Unbreak_domain,DIRECT
+  - DOMAIN-KEYWORD,youtube,YouTube
+  - RULE-SET,YouTube_domain,YouTube
+  - RULE-SET,YouTube_ipcidr,YouTube
+  - RULE-SET,DisneyPlus_domain,Disney
+  - RULE-SET,HBO-USA_domain,Hbomax
+  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Netflix
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,Netflix
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Netflix
+  - DOMAIN-KEYWORD,netflixdnstest,Netflix
+  - RULE-SET,Netflix_domain,Netflix
+  - RULE-SET,Netflix_ipcidr,Netflix
+  - RULE-SET,Bahamut_domain,Bahamut
+  - RULE-SET,StreamingSE_domain,Bilibili
+  - RULE-SET,StreamingSE_ipcidr,Bilibili
+  - DOMAIN-KEYWORD,-spotify-,Spotify
+  - DOMAIN-KEYWORD,spotify.com,Spotify
+  - RULE-SET,Spotify_domain,Spotify
+  - RULE-SET,Spotify_ipcidr,Spotify
+  - DOMAIN-KEYWORD,steambroadcast,Steam
+  - DOMAIN-KEYWORD,steamstore,Steam
+  - DOMAIN-KEYWORD,steamuserimages,Steam
+  - RULE-SET,Steam_domain,Steam
+  - DOMAIN-KEYWORD,nicegram,Telegram
+  - RULE-SET,Telegram_domain,Telegram
+  - RULE-SET,Telegram_ipcidr,Telegram
+  - DOMAIN-KEYWORD,appspot,Google
+  - DOMAIN-KEYWORD,blogspot,Google
+  - DOMAIN-KEYWORD,gmail,Google
+  - DOMAIN-KEYWORD,google,Google
+  - DOMAIN-KEYWORD,recaptcha,Google
+  - RULE-SET,Google_domain,Google
+  - RULE-SET,Google_ipcidr,Google
+  - DOMAIN-KEYWORD,microsoft,Microsoft
+  - DOMAIN-KEYWORD,onedrive,Microsoft
+  - DOMAIN-KEYWORD,skydrive,Microsoft
+  - RULE-SET,Microsoft_domain,Microsoft
+  - DOMAIN-KEYWORD,openai,OpenAI
+  - RULE-SET,OpenAI_domain,OpenAI
+  - RULE-SET,OpenAI_ipcidr,OpenAI
+  - DOMAIN-KEYWORD,paypal,PayPal
+  - RULE-SET,PayPal_domain,PayPal
+  - DOMAIN-KEYWORD,apple.com.akadns.net,Apple
+  - DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
+  - DOMAIN-KEYWORD,apple-support.akadns.net,Apple
+  - DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+  - DOMAIN-KEYWORD,testflight,Apple
+  - RULE-SET,Apple_domain,Apple
+  - RULE-SET,Apple_ipcidr,Apple
+  - DOMAIN-KEYWORD,avoddashs,Proxies
+  - DOMAIN-KEYWORD,google,Proxies
+  - DOMAIN-KEYWORD,.blogspot.,Proxies
+  - DOMAIN-KEYWORD,.facebook.,Proxies
+  - DOMAIN-KEYWORD,.pinterest.,Proxies
+  - DOMAIN-KEYWORD,nicegram,Proxies
+  - RULE-SET,Global_domain,Proxies
+  - RULE-SET,Global_ipcidr,Proxies
+  - RULE-SET,Pixiv_domain,JP
+  - RULE-SET,China_domain,DIRECT
+  - RULE-SET,China_ipcidr,DIRECT
+  - RULE-SET,LocalAreaNetwork_domain,DIRECT
+  - RULE-SET,LocalAreaNetwork_ipcidr,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,Final
+rule-providers:
+  Unbreak_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9VbmJyZWFrLmxpc3Q
+    path: ./providers/rule-provider_Unbreak_domain.yaml
+    interval: 86400
+  YouTube_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9Zb3VUdWJlLmxpc3Q
+    path: ./providers/rule-provider_YouTube_domain.yaml
+    interval: 86400
+  YouTube_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9Zb3VUdWJlLmxpc3Q
+    path: ./providers/rule-provider_YouTube_ipcidr.yaml
+    interval: 86400
+  DisneyPlus_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9EaXNuZXlQbHVzLmxpc3Q
+    path: ./providers/rule-provider_DisneyPlus_domain.yaml
+    interval: 86400
+  HBO-USA_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9IQk8tVVNBLmxpc3Q
+    path: ./providers/rule-provider_HBO-USA_domain.yaml
+    interval: 86400
+  Netflix_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9OZXRmbGl4Lmxpc3Q
+    path: ./providers/rule-provider_Netflix_domain.yaml
+    interval: 86400
+  Netflix_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9OZXRmbGl4Lmxpc3Q
+    path: ./providers/rule-provider_Netflix_ipcidr.yaml
+    interval: 86400
+  Bahamut_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9CYWhhbXV0Lmxpc3Q
+    path: ./providers/rule-provider_Bahamut_domain.yaml
+    interval: 86400
+  StreamingSE_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdTRS5saXN0
+    path: ./providers/rule-provider_StreamingSE_domain.yaml
+    interval: 86400
+  StreamingSE_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9TdHJlYW1pbmdTRS5saXN0
+    path: ./providers/rule-provider_StreamingSE_ipcidr.yaml
+    interval: 86400
+  Spotify_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9NdXNpYy9TcG90aWZ5Lmxpc3Q
+    path: ./providers/rule-provider_Spotify_domain.yaml
+    interval: 86400
+  Spotify_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9NdXNpYy9TcG90aWZ5Lmxpc3Q
+    path: ./providers/rule-provider_Spotify_ipcidr.yaml
+    interval: 86400
+  Steam_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9HYW1lL1N0ZWFtLmxpc3Q
+    path: ./providers/rule-provider_Steam_domain.yaml
+    interval: 86400
+  Telegram_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbS5saXN0
+    path: ./providers/rule-provider_Telegram_domain.yaml
+    interval: 86400
+  Telegram_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9UZWxlZ3JhbS9UZWxlZ3JhbS5saXN0
+    path: ./providers/rule-provider_Telegram_ipcidr.yaml
+    interval: 86400
+  Google_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9Hb29nbGUvR29vZ2xlLmxpc3Q
+    path: ./providers/rule-provider_Google_domain.yaml
+    interval: 86400
+  Google_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9Hb29nbGUvR29vZ2xlLmxpc3Q
+    path: ./providers/rule-provider_Google_ipcidr.yaml
+    interval: 86400
+  Microsoft_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9NaWNyb3NvZnQvTWljcm9zb2Z0Lmxpc3Q
+    path: ./providers/rule-provider_Microsoft_domain.yaml
+    interval: 86400
+  OpenAI_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9PcGVuQUkvT3BlbkFJLmxpc3Q
+    path: ./providers/rule-provider_OpenAI_domain.yaml
+    interval: 86400
+  OpenAI_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9PcGVuQUkvT3BlbkFJLmxpc3Q
+    path: ./providers/rule-provider_OpenAI_ipcidr.yaml
+    interval: 86400
+  PayPal_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9QYXlQYWwubGlzdA
+    path: ./providers/rule-provider_PayPal_domain.yaml
+    interval: 86400
+  Apple_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9BcHBsZS9BcHBsZS5saXN0
+    path: ./providers/rule-provider_Apple_domain.yaml
+    interval: 86400
+  Apple_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9FeHRyYS9BcHBsZS9BcHBsZS5saXN0
+    path: ./providers/rule-provider_Apple_ipcidr.yaml
+    interval: 86400
+  Global_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9HbG9iYWwubGlzdA
+    path: ./providers/rule-provider_Global_domain.yaml
+    interval: 86400
+  Global_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9HbG9iYWwubGlzdA
+    path: ./providers/rule-provider_Global_ipcidr.yaml
+    interval: 86400
+  Pixiv_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9TdHJlYW1pbmdNZWRpYS9WaWRlby9QaXhpdi5saXN0
+    path: ./providers/rule-provider_Pixiv_domain.yaml
+    interval: 86400
+  China_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9DaGluYS5saXN0
+    path: ./providers/rule-provider_China_domain.yaml
+    interval: 86400
+  China_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9DaGluYS5saXN0
+    path: ./providers/rule-provider_China_ipcidr.yaml
+    interval: 86400
+  LocalAreaNetwork_domain:
+    type: http
+    behavior: domain
+    url: https://api.sublink.dev/getruleset?type=3&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9Mb2NhbEFyZWFOZXR3b3JrLmxpc3Q
+    path: ./providers/rule-provider_LocalAreaNetwork_domain.yaml
+    interval: 86400
+  LocalAreaNetwork_ipcidr:
+    type: http
+    behavior: ipcidr
+    url: https://api.sublink.dev/getruleset?type=4&url=UHJvZmlsZXMvU3VyZ2UvUnVsZXNldC9Mb2NhbEFyZWFOZXR3b3JrLmxpc3Q
+    path: ./providers/rule-provider_LocalAreaNetwork_ipcidr.yaml
+    interval: 86400
